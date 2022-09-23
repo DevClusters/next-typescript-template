@@ -1,0 +1,41 @@
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.brandContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    width: 20%;
+    justify-content: flex-start;
+}
+
+.menuContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5rem;
+    width: 60%;
+}
+
+.langContainer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 20%;
+    justify-content: flex-end;
+}
+
+.selected{
+    color: #0070f3;
+}
